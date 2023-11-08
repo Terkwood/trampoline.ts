@@ -1,4 +1,4 @@
-import { trampoline } from 'https://raw.githubusercontent.com/Terkwood/trampoline.ts/main/trampoline.ts';
+import { trampoline } from 'https://raw.githubusercontent.com/Terkwood/trampoline.ts/v0.0.1/trampoline.ts';
 
 const helper = (num: number, acc = 1) => { 
     return num === 0 ? acc : () => helper(num - 1, acc * num); 
